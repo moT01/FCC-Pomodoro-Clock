@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center; 
+    background-color: #a6a6a6;
+    color: #333; }
+
+.logo {
+    font-family: Brush Script Std, Brush Script MT, cursive;
+    font-size: 70px; }
+
+.big {
+    font-size: 100px;
+    display: inline; }
+
+.buttonareawrap {
+    position: relative;
+    left: -5px;
+    margin: 0 auto;
+    width: 600px;
+    max-width: 100%; }
+
+.lengthwrap {
+    display: inline-block; }
+
+.timerwrap {
+    display: inline-block; }
+
+.btn {
+    border-radius: 10px;
+    display: block; }
+
+.btn:hover {
+    cursor: pointer; }
+
+.ctrl {
+    margin: 20px 40px;
+    position: relative; 
+    top: -20px;
+    font-size: 16pt; }
+
+.playpause {
+    color: #009900; }
+
+.stop {
+    color: #cc0000; }
+
+.time {
+    font-size: 40px;
+    width: 50px;
+    margin: 0px; }
+
+.controlswrap {
+    display: inline-block; }
+
+.clockimg {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-width: 1px;
+    border-bottom-color: #333;
+    border-style: solid;
+    overflow: hidden; }
+
+.progress {
+    z-index: -1;
+    position: relative;
+    top: 119px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: #009900; 
+    -webkit-transition: all 1000ms  linear 0s;
+    -moz-transition: all 1000ms  linear 0s;
+    -o-transition: all 1000ms  linear 0s;
+    transition: all 1000ms linear 0s; }
+
+.mode {
+    font-size: 25px;
+    position: relative;
+    top: 40px; }
+
+.clock {
+    position: inherit;
+    top: 75px;
+    font-size: 40px; }

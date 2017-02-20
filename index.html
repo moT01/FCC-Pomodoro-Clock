@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>FCC Pomodoro Clock</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="pomodoro.css">
+    </head>
+    
+    <body>
+        <div class="logo"><div class="big">P</div>omodoro <div class="big">C</div>lock</div>
+        <div class="buttonareawrap">
+            <div class="lengthwrap">
+                <p class="title">SESSION</p>
+                <div class="timerwrap">
+                    <div class="btn" id="psessionmin">+</div>
+                    <p class="time" id="smin">5</p>
+                    <div class="btn" id="msessionmin">-</div>
+                </div>
+            </div>
+            <div class="controlswrap">
+                <div class="btn ctrl playpause" id="startpause">▶</div>
+                <div class="btn ctrl stop" id="stop">▇</div>
+            </div>
+            <div class="lengthwrap">
+                <p class="title">BREAK</p>
+                <div class="timerwrap">
+                    <div class="btn" id="pbreakmin">+</div>
+                    <p class="time" id="bmin">5</p>
+                    <div class="btn" id="mbreakmin">-</div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="clockimg">
+            <div class="mode">STOP</div>
+            <div class="clock">5:00</div>
+            <div class="progress"></div>
+        </div>
+
+        <script src="jquery-3.1.0.js"></script>
+        <script src="pomodoro.js"></script>
+    </body>
+  
+</html>
