@@ -1,5 +1,5 @@
 ## FCC-Pomodoro-Clock
-##### Pomodoro Clock project for [freecodecamp.com](https://www.freecodecamp.com/challenges/build-a-pomodoro-clock)
+##### Pomodoro Clock project for [freeCodeCamp](https://www.freecodecamp.org/)
 ##### Check it out [here](https://mot01.github.io/FCC-Pomodoro-Clock/)
 
 <br/>
